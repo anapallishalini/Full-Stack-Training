@@ -4,6 +4,7 @@ public class Main
     {
         int[] array={1,2,3,4};
         //int[] array=new int[5];
+        //count even and odd Elements
         array[1]=6;
         array[2]=8;
         int sum=0;
@@ -11,8 +12,8 @@ public class Main
         int min=array[0];
         for(int i=0;i<array.length;i++)
         {
-            System.out.println(array[i]);
-            sum=sum+array[i];
+            System.out.println(array[i]+" ");
+            sum=sum+array[i]; //running sum
             if(array[i]>max)
             {
                  max=array[i];

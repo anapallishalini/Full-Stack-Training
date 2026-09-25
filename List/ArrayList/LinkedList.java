@@ -12,7 +12,6 @@ public class LinkedList
     }
     Node head;
     Node tail;
-    // Insert node at the beginning
     public void inserthead(int data)
      {
         Node newnode = new Node(data);
@@ -25,8 +24,6 @@ public class LinkedList
             head = newnode;
         }
     }
-
-    // Print the linked list
     public void printList() 
     {
         Node current = head;
@@ -39,8 +36,6 @@ public class LinkedList
 
         System.out.println("null");
     }
-
-    // Main method
     public static void main(String[] args) 
     {
 

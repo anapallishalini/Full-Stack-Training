@@ -81,5 +81,6 @@ public class Main
         System.out.println("popped:"+stack.pop());
         System.out.println("popped:"+stack.pop());
         System.out.println();
+        
     }
 }

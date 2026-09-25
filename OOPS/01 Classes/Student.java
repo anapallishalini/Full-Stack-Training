@@ -26,7 +26,7 @@ class StudentDetails
 
     void study()
     {
-        if (mood.equals("ambitious"))
+        if (mood=="ambitious")
         {
             System.out.println("I am going to achieve that ambition");
         }
